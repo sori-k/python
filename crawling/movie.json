@@ -1,0 +1,135 @@
+jsonData = [
+	{
+		"rank": "No.1",
+		"title": "서울의 봄",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87554/87554_320.jpg",
+		"percent": "29.4%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034317&MOVIE_CD_GROUP=20034317"
+	},
+	{
+		"rank": "No.2",
+		"title": "엔시티 네이션: 투 더 월드 인 시네마",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87727/87727_320.jpg",
+		"percent": "15.2%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034631&MOVIE_CD_GROUP=20034631"
+	},
+	{
+		"rank": "No.3",
+		"title": "나폴레옹",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87596/87596_320.jpg",
+		"percent": "13.9%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034381&MOVIE_CD_GROUP=20034381"
+	},
+	{
+		"rank": "No.4",
+		"title": "3일의 휴가",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87594/87594_320.jpg",
+		"percent": "7.2%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034379&MOVIE_CD_GROUP=20034379"
+	},
+	{
+		"rank": "No.5",
+		"title": "싱글 인 서울",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87718/87718_320.jpg",
+		"percent": "5.3%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034622&MOVIE_CD_GROUP=20034622"
+	},
+	{
+		"rank": "No.6",
+		"title": "괴물",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87716/87716_320.jpg",
+		"percent": "5.1%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034620&MOVIE_CD_GROUP=20034620"
+	},
+	{
+		"rank": "No.7",
+		"title": "듄",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000084/84945/84945_320.jpg",
+		"percent": "4.8%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20035069&MOVIE_CD_GROUP=20027588"
+	},
+	{
+		"rank": "No.8",
+		"title": "SEVENTEEN TOUR ‘FOLLOW’ TO JAPAN ： LIVE VIEWING",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87872/87872_320.jpg",
+		"percent": "4.0%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20035007&MOVIE_CD_GROUP=20035007"
+	},
+	{
+		"rank": "No.9",
+		"title": "사채소년",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87693/87693_320.jpg",
+		"percent": "1.2%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034566&MOVIE_CD_GROUP=20034566"
+	},
+	{
+		"rank": "No.10",
+		"title": "명탐정코난-흑철의 어영",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87165/87165_320.jpg",
+		"percent": "1.1%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20033120&MOVIE_CD_GROUP=20033120"
+	},
+	{
+		"rank": "No.11",
+		"title": "뽀로로 극장판 슈퍼스타 대모험",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87453/87453_320.jpg",
+		"percent": "0.9%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034163&MOVIE_CD_GROUP=20034163"
+	},
+	{
+		"rank": "No.12",
+		"title": "노량-죽음의 바다",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87907/87907_320.jpg",
+		"percent": "0.8%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20035137&MOVIE_CD_GROUP=20035131"
+	},
+	{
+		"rank": "No.13",
+		"title": "극장판 파워 디지몬 더 비기닝",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87699/87699_320.jpg",
+		"percent": "0.7%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034885&MOVIE_CD_GROUP=20034587"
+	},
+	{
+		"rank": "No.14",
+		"title": "더 와일드-야수들의 전쟁",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87553/87553_320.jpg",
+		"percent": "0.6%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034316&MOVIE_CD_GROUP=20034316"
+	},
+	{
+		"rank": "No.15",
+		"title": "교토에서 온 편지",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87777/87777_320.jpg",
+		"percent": "0.3%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034798&MOVIE_CD_GROUP=20034798"
+	},
+	{
+		"rank": "No.16",
+		"title": "SIFF2023-유레카",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87847/87847_320.jpg",
+		"percent": "0.3%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034963&MOVIE_CD_GROUP=20034963"
+	},
+	{
+		"rank": "No.17",
+		"title": "SIFF2023-막걸리가 알려줄거야",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87817/87817_320.jpg",
+		"percent": "0.3%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034899&MOVIE_CD_GROUP=20034899"
+	},
+	{
+		"rank": "No.18",
+		"title": "프레디의 피자가게",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87550/87550_320.jpg",
+		"percent": "0.3%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034313&MOVIE_CD_GROUP=20034313"
+	},
+	{
+		"rank": "No.19",
+		"title": "나 혼자만 레벨업 프리뷰",
+		"image": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87755/87755_320.jpg",
+		"percent": "0.3%",
+		"link": "http://www.cgv.co.kr/ticket/?MOVIE_CD=20034788&MOVIE_CD_GROUP=20034689"
+	}
+]
