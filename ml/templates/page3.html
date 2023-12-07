@@ -3,7 +3,7 @@
     <div class="my-5">
         <h1 class="text-center mb-5">다항회귀</h1>
         <div class="row justify-content-center">
-            <div class="col-md-6">
+            <div class="col">
                 <form class="card p-5" name="frm">
                     <div class="input-group">
                         <span class="input-group-text">Degree</span>
@@ -14,8 +14,16 @@
                             <option value="4">4차원</option>
                             <option value="5">5차원</option>
                             <option value="6">6차원</option>
+                            <option value="10">10차원</option>
                         </select>
-                        <button class="btn btn-dark">그래프출력</button>
+                        <button id="btn-graph" class="btn btn-dark" type="button">그래프출력</button>
+                    </div>
+                    <div class="input-group mt-3">
+                        <input class="form-control" placeholder="공부시간" name="hour">
+                        <button class="btn btn-outline-dark">예 상 점 수</button>
+                    </div>
+                    <div class="text-center mt-4">
+                        <h4>예상 점수는 <span id="score">0</span>점 입니다.</h4>
                     </div>
                 </form>
                 <div>
@@ -25,9 +33,25 @@
         </div>
     </div>
     <script>
+        $("#btn-graph").on("click", function(){
+            $("#graph").attr("src", "/score/poly/graph?degree=" + $(frm.degree).val());
+        });
+
         $(frm).on("submit", function(e){
             e.preventDefault();
-            $("#graph").attr("src", "/score/poly/graph?degree=" + $(frm.degree).val());
+            const hour = $(frm.hour).val();
+            if(hour == ""){
+                alert("공부 시간을 입력하세요!");
+            }else{
+                $.ajax({
+                    type:"get",
+                    url:"/score/poly",
+                    data:{hour, degree:$(frm.degree).val()},
+                    success:function(data){
+                        $("#score").html(Math.round(data));
+                    }
+                })
+            }
         });
     </script>
 {%endblock%}
